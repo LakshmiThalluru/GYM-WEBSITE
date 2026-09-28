@@ -1,0 +1,27 @@
+.trainers {
+  padding: 130px 8%;
+  text-align: center;
+}
+.trainers-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.trainer-card {
+  width: 250px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 20px;
+  transition: 0.3s ease;
+}
+.trainer-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ff6b00;
+}
+.trainer-card img {
+  width: 100%;
+  border-radius: 12px;
+  height: 230px;
+  object-fit: cover;
+}
